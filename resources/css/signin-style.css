@@ -1,0 +1,159 @@
+body {
+  font-family: 'Space Mono', monospace;  
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80);
+  background-size: cover;
+}
+
+* {box-sizing: border-box}
+
+h1 {
+  color:#FAF33E;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+b {
+  color:#FAF33E
+}
+
+.points {
+  font-size: 30px;
+  margin: 0;
+}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 16px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.registerbtn {
+  background-color: #26a467;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+  border-radius: 16px;
+  font-size: 17px;
+}
+
+.registerbtn:hover {
+  opacity: 0.8;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: rgb(19, 124, 230);
+}
+
+.signin {
+  background-color: #FAF33E;
+  text-align: center;
+  color: #161616;
+  margin-top: 50px;
+}
+
+.login-box {
+  width: 60%;
+  border: 2px solid white;
+  padding: 30px;
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.logo {
+  display: flex;
+  padding-top: 100px;
+}
+
+img {
+  cursor: pointer;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+@media all and (min-width: 300px) {
+  .login-box {
+    width: 90%;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+  .logo {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+}
+
+@media all and (min-width: 680px) {
+  .login-box {
+    width: 60%;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+  .logo {
+    display: flex;
+    padding-top: 45px;
+}
+}
+
+@media all and (min-width: 900px) {
+  .login-box {
+    width: 60%;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+  .logo {
+    display: flex;
+    padding-top: 45px;
+}
+}
